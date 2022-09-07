@@ -1,0 +1,1 @@
+X=MsgBox("Not found bonzi.dll Do you fix this problem?",0+16,"DLL")
