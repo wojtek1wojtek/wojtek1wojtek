@@ -1,0 +1,31 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Rover=Rover.acs
+
+[LanguageIDs]
+Rover=&H409
+
+[Script]
+Rover.Show
+Rover.Speak "welcome to windows me"
+Rover.MoveTo 295, 146
+Rover.MoveTo 296, 144
+Rover.Play "Greet"
+Rover.Play "Books"
+Rover.Speak "the is microsoft to 1999 to 2000"
+Rover.Play "ClickedOn"
+Rover.MoveTo 1347, 773
+Rover.Speak "plase the me to help"
+Rover.MoveTo 1183, 559
+Rover.Play "GetAttention"
+Rover.Speak "whait"
+Rover.Play "Greet"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

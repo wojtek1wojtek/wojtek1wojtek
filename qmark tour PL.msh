@@ -1,0 +1,33 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Qmark=Qmark.acs
+
+[LanguageIDs]
+Qmark=&H409
+
+[Script]
+Qmark.Show
+Qmark.Play "Welcome"
+Qmark.Play "Shimmer"
+Qmark.Speak "\Pit=276\\Spd=1\\System Windows XP Zapraszamy!"
+Qmark.Speak "\Pit=276\\Spd=10\\Jestem tutaj aby pomóc w skonwirugowaniu nowego komputera"
+Qmark.MoveTo 1232, 697
+Qmark.Speak "\Pit=276\\Spd=10\\kliknij tutaj aby ci pomóc"
+Qmark.MoveTo 906, 480
+Qmark.MoveTo 906, 480
+Qmark.Play "WakeUp"
+Qmark.MoveTo 1116, 606
+Qmark.Play "PointDown"
+Qmark.Play "MoveUp"
+Qmark.MoveTo 866, 519
+Qmark.Play "Shimmer"
+Qmark.Speak "\Pit=276\\Spd=10\\Dzienkujemy za zainstalowanie systemu windows xp"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True
