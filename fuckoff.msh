@@ -1,0 +1,51 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Merlin=Merlin.acs
+Genie=Genie.acs
+
+[LanguageIDs]
+Merlin=&H409
+Genie=&H409
+
+[Script]
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Merlin.Show
+Merlin.Speak "Hello,i'm Merlin"
+Merlin.Speak "I Fucking Your Destroying PC!"
+Merlin.MoveTo 117, 47
+Merlin.Speak "this sometimes destroying your windows xp to win 11 with virus."
+Merlin.Speak "and sucks right?"
+Merlin.Speak "this pc suks?"
+Merlin.Speak "now genie is coming back."
+Set Req = Merlin.Speak("i use magic coming out genie")
+WaitFor Req
+Merlin.Speak("oh it's time to your computer very very very very very very very very very very very very got hacked ")
+Merlin.Speak("i use genie on magic")
+Merlin.Play "DoMagic1"
+Set Req = Merlin.Play("DoMagic2")
+WaitFor Req
+Genie.MoveTo -10, 45
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Genie.Speak "Hello I'm genie."
+Genie.Speak "Let's starting optimeze this pc"
+
+Genie.Play "DoMagic1"
+Genie.Speak "Now your computer has been hacked  by me"
+Set Req = Merlin.Speak("You know fucking pc? you can't ")
+WaitFor Req
+Set Req = Merlin.Speak("and pc very suks suks suks suks suks uks suks suks suks suks suks suks suks suks suks")
+WaitFor Req
+Genie.Speak "suks suks suks suks suks uks suks suks suks suks suks suks suks suks suks"
+Set Req = Genie.Hide()
+WaitFor Req
+Merlin.Hide
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True
