@@ -31,7 +31,6 @@ Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
 Genie.Show
 Genie.Speak "Hello I'm genie."
 Genie.Speak "Let's starting optimeze this pc"
-
 Genie.Play "DoMagic1"
 Genie.Speak "Now your computer has been hacked  by me"
 Set Req = Merlin.Speak("You know fucking pc? you can't ")
