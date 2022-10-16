@@ -1,0 +1,2 @@
+/tellraw @a {"text":"herobrine join the game ","color":"yellow","bold":"true"}
+/title @a title {"text":"twoja stara","color":"#00ff00","bold":"true"}
