@@ -1,0 +1,27 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+PcBlue=PcBlue.acs
+
+[LanguageIDs]
+PcBlue=&H409
+
+[Script]
+PcBlue.Show
+PcBlue.Speak "hello motherfuck i am pc blue and i will make this pc get blue sccreened ok wel you see me with a mouse i will blue screen this pc"
+PcBlue.Speak "5"
+PcBlue.Speak "4"
+PcBlue.Speak "3"
+PcBlue.Speak "2"
+PcBlue.Speak "1"
+Set Req = PcBlue.Play("lookinside")
+WaitFor Req
+PcBlue.Hide
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True
