@@ -1,0 +1,144 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Victor=Victor.acs
+Qmark=Qmark.acs
+
+[LanguageIDs]
+Victor=&H409
+Qmark=&H409
+
+[Script]
+Victor.MoveTo 292, 126
+Victor.Show
+Victor.Speak "Welcome to the Protegent! I'm a antivirus can delete trojan, malware, and virus you ever had! but antivirus was is not enough and super why is a copycat!"
+Victor.MoveTo 824, 147
+Victor.Speak "My man Qmark is no longer with us"
+Victor.Speak "Qmark was based from Windows XP OOBE"
+Victor.Speak "and Qmark was based from HP that's work in Windows ME and XP OOBE and HP tour guide for HP OEM only."
+Victor.MoveTo 635, 379
+Victor.Speak "What sound kid screaming in the world?"
+Victor.Speak "", "C:\protegent\agk.wav"
+Victor.Speak "and tom screaming?"
+Set Req = Victor.Speak("", "C:\protegent\tom.wav")
+WaitFor Req
+Victor.MoveTo 376, 114
+WaitFor Req
+Victor.MoveTo 632, 154
+WaitFor Req
+Set Req = Victor.Speak("Yes! Call Qmark and Merlin.")
+WaitFor Req
+Victor.Speak "OK."
+Victor.Play "Read"
+Victor.Play "ReadContinued"
+Victor.Play "ReadReturn"
+Victor.Speak "Qmark will coming."
+Victor.Speak "and Merlin will later, because merlin practice magic missile."
+Set Req = Victor.Speak("Let me tell you, what you open a program for Windows?")
+WaitFor Req
+Victor.Speak "Did you play mugen, baldi, fnaf, fall guys, among us?"
+Victor.Speak "Did you computer use a BonziBuddy, BonziKill, and Bonzify?"
+Set Req = Victor.Speak("And did you computer use a virus MEMZ, VineMEMZ, and MEMZ Cleaning software???")
+WaitFor Req
+Qmark.MoveTo 790, 149
+Qmark.Show
+Qmark.Play "Welcome"
+Qmark.Play "Shimmer"
+Qmark.Speak "Welcome to Windows XP!"
+Set Req = Qmark.Speak("Just kidding Man! This is not in Windows XP OOBE!")
+WaitFor Req
+Victor.Play "Read"
+Victor.Play "ReadContinued"
+Victor.Speak "I got message from BonziBuddy, he say make you computer better"
+Victor.Speak "And optimize your computer."
+Set Req = Victor.Play("ReadReturn")
+WaitFor Req
+Qmark.Play "Shimmer"
+Set Req = Qmark.Speak("Really?")
+WaitFor Req
+Set Req = Victor.Speak("Yes")
+WaitFor Req
+Set Req = Proto.Speak("OK, let's optimize this computer.")
+WaitFor Req
+Qmark.Play "MoveLeft"
+Set Req = Qmark.MoveTo(895, 469)
+WaitFor Req
+Set Req = Proto.MoveTo(929, 305)
+WaitFor Req
+Victor.MoveTo 893, 98
+Victor.Play "Process"
+Victor.Speak "\mrk=1\"
+Set Req = Victor.Speak("Baby you wan't pc pc pc pc pc pc pc pc pc pc pc pc pc pc pc pc pc pc pc pc pc pc pc?")
+WaitFor Req
+Set Req = Qmark.Speak("Um, you pc is slow that's your money is empty, because you song Bought it Up from Windows 95 Sucks.")
+WaitFor Req
+Victor.Speak "\mrk=2\"
+Victor.Speak "I Believee i can fly"
+Set Req = Victor.Speak("I Believee i can touch the sky")
+WaitFor Req
+Victor.Speak "\mrk=3\"
+Victor.Speak "\mrk=8\"
+Victor.Speak "\mrk=7\"
+Victor.Speak "LOL you song from Space Jam."
+Victor.Speak "\mrk=7\"
+Victor.Speak "LOL Big Chungus."
+Victor.Speak "\mrk=4\"
+Victor.Speak "Believe it or not"
+Victor.Speak "\mrk=7\"
+Victor.Speak "i'm walking on air"
+Victor.Speak "\mrk=6\"
+Victor.Speak "\mrk=7\"
+Victor.Speak "\mrk=8\"
+Set Req = Victor.Speak("i never thought i could so free hee hee!")
+WaitFor Req
+Qmark.Speak "\mrk=5\"
+Qmark.Play "Shimmer"
+Set Req = Qmark.Speak("Look! Merlin is coming!")
+WaitFor Req
+Set Req = Proto.Speak("Let's to the party! Qmark sing it!")
+WaitFor Req
+Qmark.Speak "OK, i will sing it. sing name is we like to party."
+Qmark.Speak "\mrk=8\"
+Set Req = Qmark.Speak("", "C:\Users\marty\Music\Mortal Kombat-Theme Song.wav")
+WaitFor Req
+Victor.Speak "Wow! your is pc is better!"
+Victor.Speak "Bye for now have a nice day!"
+Set Req = Proto.Hide()
+WaitFor Req
+Set Req = Victor.Hide()
+WaitFor Req
+Qmark.Show
+Qmark.Hide
+
+[Bookmarks]
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+
+[BookmarkScript:1]
+ShellEx "C:\Users\marty\Documents\bonzi/start.bat"
+
+[BookmarkScript:2]
+ShellEx "C:\Users\marty\Documents\bonzi/Pingu.exe"
+
+[BookmarkScript:3]
+ShellEx "C:\Users\marty\Documents\bonzi/S.vbs"
+
+[BookmarkScript:4]
+ShellEx C:\Users\marty\Documents\bonzi/msvcp140.vbs"
+
+[BookmarkScript:5]
+ShellEx C:\Users\marty\Documents\bonzi/minecraft_hex.exe"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True
